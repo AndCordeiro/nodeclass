@@ -1,0 +1,4 @@
+JWT_SECRET=batatinhas
+JWT_EXPIRES=2d
+SALT=10
+DB_PATH=
