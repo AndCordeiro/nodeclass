@@ -1,0 +1,20 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "consistent-return": "off",
+    "class-methods-use-this": "off",
+    "no-throw-literal": "off",
+    "no-shadow": "off",
+    "no-underscore-dangle": "off"
+  }
+}
